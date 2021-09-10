@@ -6,7 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int x = 0; x < 1000; x++)
+            {
+                if (x % 2 == 0)
+                {
+                    Console.WriteLine(x);
+                }
+            }
         }
     }
 }
